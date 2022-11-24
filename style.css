@@ -1,0 +1,61 @@
+body{
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  font-family: monospace;
+  margin: 1%;
+}
+
+.background{
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  margin: auto;
+  width: 55%;
+  padding: 5%;
+}
+
+header, nav {
+  text-align: center;
+}
+
+header {
+  color: lime;
+}
+nav{
+  background-color: lime;
+  padding: 1%;
+}
+main{
+  color: white;
+}
+
+h2{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+
+h3{
+  font-size: 15px;
+font-weight: lighter;
+}
+
+.uno .batteria{
+  color: orange;
+  background-color: orange;
+  border-radius: 10px;
+  width: 45%;
+}
+.due .batteria{
+  color: green;
+  background-color: green;
+  border-radius: 10px;
+  width: 70%;
+}
+
+.tre .batteria{
+  color: red;
+  background-color: red;
+  border-radius: 10px;
+  width: 20%;
+}
