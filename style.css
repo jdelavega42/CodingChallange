@@ -25,9 +25,65 @@ body{
 }
 
 nav{
-  margin: 0;
   width: 100%;
   background-color: lime;
   padding: 5px;
   border-radius: 5px;
+
+}
+
+main{
+  text-align: left;
+  color: white;
+
+}
+
+.scooter{
+  margin-top: 20px;
+
+}
+
+.left{
+  display: inline-block;
+}
+
+input.checkbox{
+  width: 10px;
+  height: 10px;
+
+}
+address::before{
+  content: '\21A6';
+
+}
+
+.info{
+  font-size: 10px;
+  font-weight: 100;
+  font-style: normal;
+  margin-top: 5px;
+}
+
+.bar{
+  border-radius: 5px;
+  height: 20px;
+
+}
+
+.green{
+  width: 75%;
+  background-color: green;
+
+}
+
+.orange{
+  width: 40%;
+  background-color: orange;
+
+}
+
+.red{
+  width: 10%;
+  background-color: orangered;
+
 }
